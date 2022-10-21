@@ -111,7 +111,7 @@ const handleClose = (event, reason) => {
           <CommonSnackbar  transition={TransitionLeft}  onClose={handleClose} message={error} open={open} />    
             <Button style={{marginTop:'20px',height:'50px'}} type='submit' fullWidth={true} className='button1' variant='contained'>Login</Button><br /><br />           
             </form> 
-            <Link to='/register'>Register</Link>
+            {/* <Link to='/register'>Register</Link> */}
           </Grid> 
         </Paper>
       </Grid>
